@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintAppCompatCustomView" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintAppCompatResource" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintByteOrderMark" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintDuplicateIds" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintExtraTranslation" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintIconLauncherFormat" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintImpliedQuantity" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintLogTagMismatch" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintLongLogTag" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintMissingTranslation" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintNotSibling" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintOrientation" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintParcelCreator" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintProtectedPermissions" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintResAuto" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintRtlCompat" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintStringFormatInvalid" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintStringFormatMatches" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintSuspicious0dp" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintValidFragment" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintWrongViewCast" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="JavadocReference" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="ResourceType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="Since15" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XmlHighlighting" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
