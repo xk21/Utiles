@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="voiceView">
+        <!--中间线的颜色，就是波形的时候，大家可以看到，中间有一条直线，就是那个-->
+        <attr name="middleLine" format="color" />
+        <!--中间线的高度，因为宽度是充满的-->
+        <attr name="middleLineHeight" format="dimension" />
+        <!--波动的线的颜色，如果是距形样式的话，刚是距形的颜色-->
+        <attr name="voiceLine" format="color" />
+        <!--波动线的横向移动速度，线的速度的反比，即这个值越小，线横向移动越快，越大线移动越慢，默认90-->
+        <attr name="lineSpeed" format="integer" />
+        <!--矩形的宽度-->
+        <attr name="rectWidth" format="dimension" />
+        <!--矩形之间的间隔-->
+        <attr name="rectSpace" format="dimension" />
+        <!--矩形的初始高度，就是没有声音的时候，矩形的高度-->
+        <attr name="rectInitHeight" format="dimension" />
+        <!--所输入音量的最大值-->
+        <attr name="maxVolume" format="float" />
+        <!--控件的样式，一共有两种，波形或者矩形-->
+        <attr name="viewMode">
+            <enum name="line" value="0" />
+            <enum name="rect" value="1" />
+        </attr>
+        <!--灵敏度，默认值是4-->
+        <attr name="sensibility">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+        <!--精细度，绘制曲线的时候，每几个像素绘制一次，默认是1，一般，这个值越小，曲线越顺滑，
+            但在一些旧手机上，会出现帧率过低的情况，可以把这个值调大一点，在图片的顺滑度与帧率之间做一个取舍-->
+        <attr name="fineness">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!--评分控件属性-->
+    <declare-styleable name="RatingBar">
+        <!--星星间距-->
+        <attr format="dimension" name="starDistance"/>
+        <!--星星大小-->
+        <attr format="dimension" name="starSize"/>
+        <!--星星个数-->
+        <attr format="integer" name="starCount"/>
+        <!--星星空图-->
+        <attr format="reference" name="starEmpty"/>
+        <!--星星满图-->
+        <attr format="reference" name="starFill"/>
+        <!--星星可点击-->
+        <attr format="boolean" name="touchAble"/>
+    </declare-styleable>
+
+    <!--加载进度百分比-->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- CircularImageView for custom shape -->
+    <declare-styleable name="CircularImageView">
+        <!-- Specifies whether or not to draw a circular border around the image. -->
+        <attr name="border" format="boolean"></attr>
+        <!-- Specifies the color of the border draw around the image. (if enabled) -->
+        <attr name="border_color" format="color"></attr>
+        <!-- Makes the border this pixels wide. (if enabled) -->
+        <attr name="border_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a selector on this view upon touch events. -->
+        <attr name="selector" format="boolean"></attr>
+        <!-- Specifies the color of the selector draw on top of the image upon touch events. (if enabled) -->
+        <attr name="selector_color" format="color"></attr>
+        <!-- Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) -->
+        <attr name="selector_stroke_color" format="color"></attr>
+        <!-- Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) -->
+        <attr name="selector_stroke_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a shadow around your circular image. -->
+        <attr name="shadow" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustomCircularImageViewTheme">
+        <attr name="circularImageViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean"/>
+        <attr name="primaryColor" format="color"/>
+        <attr name="primaryColorDark" format="color"/>
+        <attr name="isOpened" format="boolean"/>
+    </declare-styleable>
+</resources>
